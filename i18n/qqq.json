@@ -11,7 +11,7 @@
 	"config-missing-db-server-oracle": "Refers to {{msg-mw|Config-db-host-oracle}}.\n{{Related|Config-missing}}",
 	"config-invalid-db-server-oracle": "Used as error message. Parameters:\n* $1 - database server name\nSee also:\n* {{msg-mw|Config-db-host-oracle-help}}",
 	"config-type-oracle": "{{optional}}",
-  "config-oracle-def-ts": "Field label for an Oracle default tablespace.",
-  "config-oracle-temp-ts": "Field label for an Oracle temporary tablespace.",
+	"config-oracle-def-ts": "Field label for an Oracle default tablespace.",
+	"config-oracle-temp-ts": "Field label for an Oracle temporary tablespace.",
 	"version-db-oracle-url": "{{ignored}}URL to the website of Oracle"
 }
