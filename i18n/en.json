@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"config-desc": "Oracle installer for MediaWiki",
+	"config-db-account-oracle-warn": "There are three supported scenarios for installing Oracle as database backend:\n\nIf you wish to create database account as part of the installation process, please supply an account with SYSDBA role as database account for installation and specify the desired credentials for the web-access account, otherwise you can either create the web-access account manually and supply only that account (if it has required permissions to create the schema objects) or supply two different accounts, one with create privileges and a restricted one for web access.\n\nScript for creating an account with required privileges can be found in \"maintenance/oracle/\" directory of this installation. Keep in mind that using a restricted account will disable all maintenance capabilities with the default account.",
+	"config-db-host-oracle": "Database TNS:",
+	"config-db-host-oracle-help": "Enter a valid [http://download.oracle.com/docs/cd/B28359_01/network.111/b28317/tnsnames.htm Local Connect Name]; a tnsnames.ora file must be visible to this installation.<br />If you are using client libraries 10g or newer you can also use the [http://download.oracle.com/docs/cd/E11882_01/network.112/e10836/naming.htm Easy Connect] naming method.",
+	"config-db-name-oracle": "Database schema:",
+	"config-db-sys-create-oracle": "Installer only supports using a SYSDBA account for creating a new account.",
+	"config-db-sys-user-exists-oracle": "User account \"$1\" already exists. SYSDBA can only be used for creating of a new account!",
+	"config-dbsupport-oracle": "* [{{int:version-db-oracle-url}} Oracle] is a commercial enterprise database. ([https://www.php.net/manual/en/oci8.installation.php How to compile PHP with OCI8 support])",
+	"config-header-oracle": "Oracle settings",
+	"config-missing-db-server-oracle": "You must enter a value for \"{{int:config-db-host-oracle}}\".",
+	"config-invalid-db-server-oracle": "Invalid database TNS \"$1\".\nUse either \"TNS Name\" or an \"Easy Connect\" string ([http://docs.oracle.com/cd/E11882_01/network.112/e10836/naming.htm Oracle Naming Methods]).",
+	"config-type-oracle": "Oracle",
+  "config-oracle-def-ts": "Default tablespace:",
+  "config-oracle-temp-ts": "Temporary tablespace:",
+	"version-db-oracle-url": "http://www.oracle.com/database/"
+}

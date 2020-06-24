@@ -1,0 +1,17 @@
+{
+	"oracle-desc": "{{desc|name=Oracle|url=https://www.mediawiki.org/wiki/Extension:Oracle}}",
+	"config-db-account-oracle-warn": "A \"[[:wikipedia:Front and back ends|backend]]\" is a system or component that ordinary users don't interact with directly and don't need to know about, and that is responsible for a distinct task or service - for example, a storage back-end is a generic system for storing data which other applications can use. Possible alternatives for back-end are \"system\" or \"service\", or (depending on context and language) even leave it untranslated.",
+	"config-db-host-oracle": "TNS = [[w:Transparent Network Substrate]].\n\nUsed as label.\n\nAlso used in {{msg-mw|Config-missing-db-server-oracle}}.",
+	"config-db-host-oracle-help": "See also:\n* {{msg-mw|Config-invalid-db-server-oracle}}",
+	"config-db-name-oracle": "Field label in the MediaWiki installer where an Oracle database schema can be specified.",
+	"config-db-sys-create-oracle": "Error message in the MediaWiki installer when Oracle is used as database and an incorrect user account type has been provided.",
+	"config-db-sys-user-exists-oracle": "Used as error message. Parameters:\n* $1 - database username",
+	"config-dbsupport-oracle": "Used in:\n* {{msg-mw|Config-support-info}}.\n{{Related|Config-dbsupport}}",
+	"config-header-oracle": "{{optional}}",
+	"config-missing-db-server-oracle": "Refers to {{msg-mw|Config-db-host-oracle}}.\n{{Related|Config-missing}}",
+	"config-invalid-db-server-oracle": "Used as error message. Parameters:\n* $1 - database server name\nSee also:\n* {{msg-mw|Config-db-host-oracle-help}}",
+	"config-type-oracle": "{{optional}}",
+  "config-oracle-def-ts": "Field label for an Oracle default tablespace.",
+  "config-oracle-temp-ts": "Field label for an Oracle temporary tablespace.",
+	"version-db-oracle-url": "{{ignored}}URL to the website of Oracle"
+}

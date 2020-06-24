@@ -1,0 +1,37 @@
+{
+	"name": "Oracle",
+	"author": [
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Oracle",
+	"descriptionmsg": "oracle-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "database",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Oracle\\": "src/"
+	},
+	"AutoloadClasses": {
+		"DatabaseOracle": "DatabaseOracle.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates":
+		"MediaWiki\\Extension\\Oracle\\Hook::onLoadExtensionSchemaUpdates"
+	},
+	"Providers": {
+		"Databases": {
+			"oracle": {
+				"Installer": "MediaWiki\\Extension\\Oracle\\Installer",
+				"Driver": "MediaWiki\\Extension\\Oracle\\Driver",
+				"Updater": "MediaWiki\\Extension\\Oracle\\Updater"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"Oracle": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}
