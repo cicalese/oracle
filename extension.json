@@ -12,9 +12,6 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\Oracle\\": "src/"
 	},
-	"AutoloadClasses": {
-		"DatabaseOracle": "DatabaseOracle.php"
-	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates":
 		"MediaWiki\\Extension\\Oracle\\Hook::onLoadExtensionSchemaUpdates"
